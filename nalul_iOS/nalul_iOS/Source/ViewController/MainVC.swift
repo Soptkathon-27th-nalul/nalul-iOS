@@ -15,12 +15,58 @@ class MainVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationController?.navigationBar.isHidden = true
        
         if let img = img {
             
             self.backgroundImg.image = img
-            
             backgroundImg.contentMode = .scaleAspectFill
         }
+    }
+    
+    @IBAction func leftEyeBtn(_ sender: Any) {
+        
+        
+    }
+    
+    @IBAction func leftHandBtn(_ sender: Any) {
+        
+        
+    }
+    
+    @IBAction func dotBtn(_ sender: Any) {
+        
+        
+    }
+    
+    @IBAction func rightHandBtn(_ sender: Any) {
+        
+        
+    }
+    
+    @IBAction func earBtn(_ sender: Any) {
+        
+        
+    }
+    
+    @IBAction func mouthBtn(_ sender: Any) {
+        
+        
+    }
+    
+    @IBAction func cheekBtn(_ sender: Any) {
+        
+        
+    }
+    
+    @IBAction func rightEyeBtn(_ sender: Any) {
+        
+        
+    }
+    
+    @IBAction func noseBtn(_ sender: Any) {
+        
+        
     }
 }
