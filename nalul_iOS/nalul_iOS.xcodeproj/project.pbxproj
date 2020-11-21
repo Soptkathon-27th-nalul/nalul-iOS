@@ -35,6 +35,9 @@
 		9BD2B4DF25695B7A00C4106D /* Write.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2B4DE25695B7A00C4106D /* Write.storyboard */; };
 		AB5EDBCC256970DA00E36E93 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EDBCB256970DA00E36E93 /* HistoryVC.swift */; };
 		AB5EDBD0256997C000E36E93 /* DetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EDBCF256997C000E36E93 /* DetailService.swift */; };
+		AB5EDBD82569A73F00E36E93 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EDBD72569A73F00E36E93 /* DetailVC.swift */; };
+		AB5EDBDB2569A81300E36E93 /* DetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EDBDA2569A81300E36E93 /* DetailCell.swift */; };
+		AB5EDBE52569AC0500E36E93 /* DetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EDBE42569AC0500E36E93 /* DetailResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +72,9 @@
 		9BD2B4DE25695B7A00C4106D /* Write.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Write.storyboard; sourceTree = "<group>"; };
 		AB5EDBCB256970DA00E36E93 /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
 		AB5EDBCF256997C000E36E93 /* DetailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailService.swift; sourceTree = "<group>"; };
+		AB5EDBD72569A73F00E36E93 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		AB5EDBDA2569A81300E36E93 /* DetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCell.swift; sourceTree = "<group>"; };
+		AB5EDBE42569AC0500E36E93 /* DetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailResponse.swift; sourceTree = "<group>"; };
 		C940BE09C2D43205D19FB522 /* Pods_nalul_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nalul_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -171,6 +177,7 @@
 				9B13640225699D300017D254 /* SplashVC.swift */,
 				1FB1D7D625696722009A1AD3 /* MainVC.swift */,
 				AB5EDBCB256970DA00E36E93 /* HistoryVC.swift */,
+				AB5EDBD72569A73F00E36E93 /* DetailVC.swift */,
 				1FB1D7D2256963F7009A1AD3 /* OnBoardingVC.swift */,
 				1FB1D7F22569ACA9009A1AD3 /* OnBoardingFirstVC.swift */,
 				1FB1D7F52569ACCE009A1AD3 /* OnBoardingSecondVC.swift */,
@@ -182,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				9BD2B4C82569599600C4106D /* EmptyCell.swift */,
+				AB5EDBDA2569A81300E36E93 /* DetailCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -207,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				9BD2B4CE256959B000C4106D /* EmptyModel.swift */,
+				AB5EDBE42569AC0500E36E93 /* DetailResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -360,6 +369,7 @@
 				1FB1D7D725696722009A1AD3 /* MainVC.swift in Sources */,
 				9BD2B4C62569588000C4106D /* NetworkResult.swift in Sources */,
 				9BD2B4CF256959B000C4106D /* EmptyModel.swift in Sources */,
+				AB5EDBD82569A73F00E36E93 /* DetailVC.swift in Sources */,
 				1FB1D7F62569ACCE009A1AD3 /* OnBoardingSecondVC.swift in Sources */,
 				9B1363F8256971840017D254 /* WriteVC.swift in Sources */,
 				1FB1D7F32569ACA9009A1AD3 /* OnBoardingFirstVC.swift in Sources */,
@@ -368,7 +378,9 @@
 				AB5EDBCC256970DA00E36E93 /* HistoryVC.swift in Sources */,
 				9BD2B49325692F6500C4106D /* SceneDelegate.swift in Sources */,
 				9BD2B4CC256959A100C4106D /* EmptyView.swift in Sources */,
+				AB5EDBDB2569A81300E36E93 /* DetailCell.swift in Sources */,
 				9BD2B4D2256959C300C4106D /* EmptyExtension.swift in Sources */,
+				AB5EDBE52569AC0500E36E93 /* DetailResponse.swift in Sources */,
 				AB5EDBD0256997C000E36E93 /* DetailService.swift in Sources */,
 				9BD2B4C92569599600C4106D /* EmptyCell.swift in Sources */,
 				1FB1D7D3256963F7009A1AD3 /* OnBoardingVC.swift in Sources */,
