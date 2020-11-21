@@ -28,6 +28,8 @@
 		9BD2B4D825695B0F00C4106D /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2B4D725695B0F00C4106D /* OnBoarding.storyboard */; };
 		9BD2B4DB25695B5B00C4106D /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2B4DA25695B5B00C4106D /* Detail.storyboard */; };
 		9BD2B4DF25695B7A00C4106D /* Write.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2B4DE25695B7A00C4106D /* Write.storyboard */; };
+		AB5EDBCC256970DA00E36E93 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EDBCB256970DA00E36E93 /* HistoryVC.swift */; };
+		AB5EDBD0256997C000E36E93 /* DetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EDBCF256997C000E36E93 /* DetailService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +57,8 @@
 		9BD2B4D725695B0F00C4106D /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
 		9BD2B4DA25695B5B00C4106D /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
 		9BD2B4DE25695B7A00C4106D /* Write.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Write.storyboard; sourceTree = "<group>"; };
+		AB5EDBCB256970DA00E36E93 /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		AB5EDBCF256997C000E36E93 /* DetailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailService.swift; sourceTree = "<group>"; };
 		C940BE09C2D43205D19FB522 /* Pods_nalul_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nalul_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -155,6 +159,7 @@
 			children = (
 				1FB1D7D2256963F7009A1AD3 /* OnBoardingVC.swift */,
 				1FB1D7D625696722009A1AD3 /* MainVC.swift */,
+				AB5EDBCB256970DA00E36E93 /* HistoryVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -196,6 +201,7 @@
 			children = (
 				9BD2B4C2256956ED00C4106D /* APIConstants.swift */,
 				9BD2B4C52569588000C4106D /* NetworkResult.swift */,
+				AB5EDBCF256997C000E36E93 /* DetailService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -339,9 +345,11 @@
 				9BD2B4C62569588000C4106D /* NetworkResult.swift in Sources */,
 				9BD2B4CF256959B000C4106D /* EmptyModel.swift in Sources */,
 				9BD2B49125692F6500C4106D /* AppDelegate.swift in Sources */,
+				AB5EDBCC256970DA00E36E93 /* HistoryVC.swift in Sources */,
 				9BD2B49325692F6500C4106D /* SceneDelegate.swift in Sources */,
 				9BD2B4CC256959A100C4106D /* EmptyView.swift in Sources */,
 				9BD2B4D2256959C300C4106D /* EmptyExtension.swift in Sources */,
+				AB5EDBD0256997C000E36E93 /* DetailService.swift in Sources */,
 				9BD2B4C92569599600C4106D /* EmptyCell.swift in Sources */,
 				1FB1D7D3256963F7009A1AD3 /* OnBoardingVC.swift in Sources */,
 			);
@@ -492,7 +500,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T2DNZQ8AY8;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "nalul_iOS/Surpporting File/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -512,7 +520,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T2DNZQ8AY8;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "nalul_iOS/Surpporting File/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
