@@ -28,6 +28,7 @@
 		9BD2B4DB25695B5B00C4106D /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2B4DA25695B5B00C4106D /* Detail.storyboard */; };
 		9BD2B4DF25695B7A00C4106D /* Write.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2B4DE25695B7A00C4106D /* Write.storyboard */; };
 		AB5EDBCC256970DA00E36E93 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EDBCB256970DA00E36E93 /* HistoryVC.swift */; };
+		AB5EDBD0256997C000E36E93 /* DetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EDBCF256997C000E36E93 /* DetailService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		9BD2B4DA25695B5B00C4106D /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
 		9BD2B4DE25695B7A00C4106D /* Write.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Write.storyboard; sourceTree = "<group>"; };
 		AB5EDBCB256970DA00E36E93 /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		AB5EDBCF256997C000E36E93 /* DetailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailService.swift; sourceTree = "<group>"; };
 		C940BE09C2D43205D19FB522 /* Pods_nalul_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nalul_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -196,6 +198,7 @@
 			children = (
 				9BD2B4C2256956ED00C4106D /* APIConstants.swift */,
 				9BD2B4C52569588000C4106D /* NetworkResult.swift */,
+				AB5EDBCF256997C000E36E93 /* DetailService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 				9BD2B49325692F6500C4106D /* SceneDelegate.swift in Sources */,
 				9BD2B4CC256959A100C4106D /* EmptyView.swift in Sources */,
 				9BD2B4D2256959C300C4106D /* EmptyExtension.swift in Sources */,
+				AB5EDBD0256997C000E36E93 /* DetailService.swift in Sources */,
 				9BD2B4C92569599600C4106D /* EmptyCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
