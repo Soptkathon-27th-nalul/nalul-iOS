@@ -17,6 +17,7 @@
 		9BD2B4BE25693A5C00C4106D /* NotoSansCJKkr-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2B4BB25693A5C00C4106D /* NotoSansCJKkr-Light.otf */; };
 		9BD2B4BF25693A5C00C4106D /* NotoSansCJKkr-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2B4BC25693A5C00C4106D /* NotoSansCJKkr-Regular.otf */; };
 		9BD2B4C025693A5C00C4106D /* NotoSansCJKkr-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2B4BD25693A5C00C4106D /* NotoSansCJKkr-Bold.otf */; };
+		9BD2B4C3256956ED00C4106D /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2B4C2256956ED00C4106D /* APIConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		9BD2B4BB25693A5C00C4106D /* NotoSansCJKkr-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSansCJKkr-Light.otf"; path = "../../../../../../Downloads/NotoSansCJKkr-hinted/NotoSansCJKkr-Light.otf"; sourceTree = "<group>"; };
 		9BD2B4BC25693A5C00C4106D /* NotoSansCJKkr-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSansCJKkr-Regular.otf"; path = "../../../../../../Downloads/NotoSansCJKkr-hinted/NotoSansCJKkr-Regular.otf"; sourceTree = "<group>"; };
 		9BD2B4BD25693A5C00C4106D /* NotoSansCJKkr-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSansCJKkr-Bold.otf"; path = "../../../../../../Downloads/NotoSansCJKkr-hinted/NotoSansCJKkr-Bold.otf"; sourceTree = "<group>"; };
+		9BD2B4C2256956ED00C4106D /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		C940BE09C2D43205D19FB522 /* Pods_nalul_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nalul_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -167,6 +169,7 @@
 		9BD2B4B0256931BC00C4106D /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				9BD2B4C2256956ED00C4106D /* APIConstants.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BD2B4C3256956ED00C4106D /* APIConstants.swift in Sources */,
 				9BD2B49525692F6500C4106D /* ViewController.swift in Sources */,
 				9BD2B49125692F6500C4106D /* AppDelegate.swift in Sources */,
 				9BD2B49325692F6500C4106D /* SceneDelegate.swift in Sources */,
