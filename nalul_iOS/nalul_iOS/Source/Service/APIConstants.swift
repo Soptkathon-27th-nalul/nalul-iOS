@@ -10,7 +10,7 @@ struct APIConstants {
     static let baseURL = "http://13.124.67.93:3000"
     
     //uuid 체크인 url
-    static let loginURL = APIConstants.baseURL + ""
+    static let loginURL = APIConstants.baseURL + "/users"
     
     // 메인 사진 9개 받아오는 url
     static let mainURL = APIConstants.baseURL + ""
