@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1FB1D7D3256963F7009A1AD3 /* OnBoardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB1D7D2256963F7009A1AD3 /* OnBoardingVC.swift */; };
 		1FB1D7D725696722009A1AD3 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB1D7D625696722009A1AD3 /* MainVC.swift */; };
+		1FB1D7F32569ACA9009A1AD3 /* OnBoardingFirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB1D7F22569ACA9009A1AD3 /* OnBoardingFirstVC.swift */; };
+		1FB1D7F62569ACCE009A1AD3 /* OnBoardingSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB1D7F52569ACCE009A1AD3 /* OnBoardingSecondVC.swift */; };
 		368D377F29EFE51550D79473 /* Pods_nalul_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C940BE09C2D43205D19FB522 /* Pods_nalul_iOS.framework */; };
 		9B1363F8256971840017D254 /* WriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1363F7256971840017D254 /* WriteVC.swift */; };
 		9B13640325699D300017D254 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13640225699D300017D254 /* SplashVC.swift */; };
@@ -39,6 +41,8 @@
 		1DD38D531E1EC0F4410568AC /* Pods-nalul_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nalul_iOS.release.xcconfig"; path = "Target Support Files/Pods-nalul_iOS/Pods-nalul_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		1FB1D7D2256963F7009A1AD3 /* OnBoardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingVC.swift; sourceTree = "<group>"; };
 		1FB1D7D625696722009A1AD3 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		1FB1D7F22569ACA9009A1AD3 /* OnBoardingFirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingFirstVC.swift; sourceTree = "<group>"; };
+		1FB1D7F52569ACCE009A1AD3 /* OnBoardingSecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingSecondVC.swift; sourceTree = "<group>"; };
 		70C8455682FABF1B11F2F60E /* Pods-nalul_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nalul_iOS.debug.xcconfig"; path = "Target Support Files/Pods-nalul_iOS/Pods-nalul_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		9B1363F7256971840017D254 /* WriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteVC.swift; sourceTree = "<group>"; };
 		9B13640225699D300017D254 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
@@ -165,9 +169,11 @@
 			children = (
 				9B1363F7256971840017D254 /* WriteVC.swift */,
 				9B13640225699D300017D254 /* SplashVC.swift */,
-				1FB1D7D2256963F7009A1AD3 /* OnBoardingVC.swift */,
 				1FB1D7D625696722009A1AD3 /* MainVC.swift */,
 				AB5EDBCB256970DA00E36E93 /* HistoryVC.swift */,
+				1FB1D7D2256963F7009A1AD3 /* OnBoardingVC.swift */,
+				1FB1D7F22569ACA9009A1AD3 /* OnBoardingFirstVC.swift */,
+				1FB1D7F52569ACCE009A1AD3 /* OnBoardingSecondVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -354,7 +360,9 @@
 				1FB1D7D725696722009A1AD3 /* MainVC.swift in Sources */,
 				9BD2B4C62569588000C4106D /* NetworkResult.swift in Sources */,
 				9BD2B4CF256959B000C4106D /* EmptyModel.swift in Sources */,
+				1FB1D7F62569ACCE009A1AD3 /* OnBoardingSecondVC.swift in Sources */,
 				9B1363F8256971840017D254 /* WriteVC.swift in Sources */,
+				1FB1D7F32569ACA9009A1AD3 /* OnBoardingFirstVC.swift in Sources */,
 				9B13640325699D300017D254 /* SplashVC.swift in Sources */,
 				9BD2B49125692F6500C4106D /* AppDelegate.swift in Sources */,
 				AB5EDBCC256970DA00E36E93 /* HistoryVC.swift in Sources */,
@@ -513,7 +521,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = T2DNZQ8AY8;
 				INFOPLIST_FILE = "nalul_iOS/Surpporting File/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -535,7 +543,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = T2DNZQ8AY8;
 				INFOPLIST_FILE = "nalul_iOS/Surpporting File/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
