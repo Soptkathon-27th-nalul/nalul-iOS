@@ -71,7 +71,7 @@
 | [Alamofire](https://github.com/Alamofire/Alamofire)| HTTP 통신|
 | [Kingfisher](https://github.com/onevcat/Kingfisher)| 이미지 통신|
 
-# 👩🏻‍💻👨🏻‍💻 Developer
-## [김민희 🍎](https://github.com/xwoud)
-## [곽민제 🍎](https://github.com/8ugustjaden)
-## [이인애 🍎](https://github.com/leeinae)
+## 👩🏻‍💻👨🏻‍💻 Developer
+#### [김민희 🍎](https://github.com/xwoud)
+#### [곽민제 🍎](https://github.com/8ugustjaden)
+#### [이인애 🍎](https://github.com/leeinae)
