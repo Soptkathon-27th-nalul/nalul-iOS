@@ -8,6 +8,8 @@
 import UIKit
 
 class WriteVC: UIViewController {
+    var classId: Int?
+    var QuestionModel: QuestionData<QuestionSuccess>?
     
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var faceImageButton: UIButton!
@@ -69,6 +71,27 @@ extension WriteVC {
     }
     @objc func moveDown(_ sender: Notification) {
         self.view.frame.origin.y = 0
+    }
+    func setQuestion() {
+        PostService.shared.getQuestion(classId: classId ?? 0) {
+            [weak self]
+            data in
+            guard let `self` = self else {return}
+            switch data {
+            case .success(let res):
+                let response = res as! QuestionData<QuestionSuccess>
+                self.QuestionModel = response
+                self.questionLabel.text = self.QuestionModel?.data?.questionText
+            case .requestErr(_):
+                print(".requestErr")
+            case .pathErr:
+                print(".pathErr")
+            case .serverErr:
+                print(".serverErr")
+            case .networkFail:
+                print(".networkFail")
+            }
+        }
     }
     func setTextView() {
         if subTextView.text == "대답을 입력해주세요." {

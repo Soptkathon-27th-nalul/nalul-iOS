@@ -36,7 +36,7 @@ struct LoginService {
         switch status {
         case 200:
             return .success(decodedData)
-        case 204:
+        case 201:
             return .success(decodedData)
         case 500:
             return .serverErr
