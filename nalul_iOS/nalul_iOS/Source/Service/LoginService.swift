@@ -15,7 +15,7 @@ struct LoginService {
     }
     
     func login(uuid: String, completion: @escaping (NetworkResult<Any>) -> Void) {
-        let header: HTTPHeaders = ["Content-Type" : "multipart/form-data"]
+        let header: HTTPHeaders = ["Content-Type" : "application/json"]
         let dataRequest = AF.request(APIConstants.loginURL, method: .post, parameters: makeLoginParameter(uuid), encoding: JSONEncoding.default, headers: header)
         
         dataRequest.responseData { dataResponse in switch dataResponse.result {
@@ -35,8 +35,10 @@ struct LoginService {
         }
         switch status {
         case 200:
+            print(decodedData.message)
             return .success(decodedData)
         case 201:
+            print(decodedData.message)
             return .success(decodedData)
         case 500:
             return .serverErr
