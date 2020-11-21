@@ -23,7 +23,10 @@ class WriteVC: UIViewController {
     }
     
     @IBAction func touchUpPostButton(_ sender: Any) {
-        
+        if (faceImageView.isHidden == false) && (subTextView.text != "대답을 입력해주세요.") {
+            //서버 통신
+            
+        }
     }
     
     @IBAction func touchUpFaceImageButton(_ sender: Any) {
@@ -53,6 +56,8 @@ extension WriteVC {
         
         questionLabel.font = UIFont(name: "NotoSansCJKkr-Bold", size: 28.0)
         questionLabel.numberOfLines = 0
+        
+        
         NotificationCenter.default.addObserver(self, selector: #selector(moveUp(_:)), name: UIResponder.keyboardWillShowNotification, object: nil)
         
         NotificationCenter.default.addObserver(self, selector: #selector(moveDown(_:)), name: UIResponder.keyboardWillHideNotification, object: nil)
