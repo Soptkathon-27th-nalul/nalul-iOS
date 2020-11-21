@@ -7,6 +7,7 @@
 
 import Foundation
 import Kingfisher
+
 extension UIImageView {
     func setImage(from url: String, completion: @escaping (UIImage?) -> Void)
     {

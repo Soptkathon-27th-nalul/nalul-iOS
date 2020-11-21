@@ -1,19 +1,19 @@
 {
   "images" : [
     {
+      "filename" : "invalidName.png",
       "idiom" : "universal",
-      "filename" : "coachmarkPhotoInsertBtn.png",
       "scale" : "1x"
     },
     {
+      "filename" : "invalidName@2x.png",
       "scale" : "2x",
-      "filename" : "coachmarkPhotoInsertBtn@2x.png",
       "idiom" : "universal"
     },
     {
       "idiom" : "universal",
-      "scale" : "3x",
-      "filename" : "coachmarkPhotoInsertBtn@3x.png"
+      "filename" : "invalidName@3x.png",
+      "scale" : "3x"
     }
   ],
   "info" : {
