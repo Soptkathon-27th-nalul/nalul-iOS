@@ -21,5 +21,8 @@ struct APIConstants {
     // 글 작성 url
     static let writeURL = APIConstants.baseURL + ""
     
+    // 질문 받기 url
+    static let questionURL = APIConstants.baseURL + "/posts/"
+    
     
 }
