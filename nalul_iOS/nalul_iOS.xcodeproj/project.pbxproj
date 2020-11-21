@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -56,7 +56,6 @@
 				70C8455682FABF1B11F2F60E /* Pods-nalul_iOS.debug.xcconfig */,
 				1DD38D531E1EC0F4410568AC /* Pods-nalul_iOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,15 +80,95 @@
 		9BD2B48F25692F6500C4106D /* nalul_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				9BD2B49025692F6500C4106D /* AppDelegate.swift */,
-				9BD2B49225692F6500C4106D /* SceneDelegate.swift */,
-				9BD2B49425692F6500C4106D /* ViewController.swift */,
-				9BD2B49625692F6500C4106D /* Main.storyboard */,
-				9BD2B49925692F6800C4106D /* Assets.xcassets */,
-				9BD2B49B25692F6800C4106D /* LaunchScreen.storyboard */,
-				9BD2B49E25692F6800C4106D /* Info.plist */,
+				9BD2B4AA2569319400C4106D /* Source */,
+				9BD2B4A92569318D00C4106D /* Resource */,
+				9BD2B4A82569316200C4106D /* Surpporting File */,
 			);
 			path = nalul_iOS;
+			sourceTree = "<group>";
+		};
+		9BD2B4A82569316200C4106D /* Surpporting File */ = {
+			isa = PBXGroup;
+			children = (
+				9BD2B49E25692F6800C4106D /* Info.plist */,
+				9BD2B49025692F6500C4106D /* AppDelegate.swift */,
+				9BD2B49225692F6500C4106D /* SceneDelegate.swift */,
+			);
+			path = "Surpporting File";
+			sourceTree = "<group>";
+		};
+		9BD2B4A92569318D00C4106D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9BD2B49925692F6800C4106D /* Assets.xcassets */,
+				9BD2B4B12569321300C4106D /* StoryBoards */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		9BD2B4AA2569319400C4106D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9BD2B4B0256931BC00C4106D /* Service */,
+				9BD2B4AF256931B600C4106D /* Model */,
+				9BD2B4AE256931B000C4106D /* Extension */,
+				9BD2B4AD256931A600C4106D /* View */,
+				9BD2B4AC256931A300C4106D /* Cell */,
+				9BD2B4AB2569319E00C4106D /* ViewController */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		9BD2B4AB2569319E00C4106D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9BD2B49425692F6500C4106D /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9BD2B4AC256931A300C4106D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9BD2B4AD256931A600C4106D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9BD2B4AE256931B000C4106D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9BD2B4AF256931B600C4106D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9BD2B4B0256931BC00C4106D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		9BD2B4B12569321300C4106D /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				9BD2B49B25692F6800C4106D /* LaunchScreen.storyboard */,
+				9BD2B49625692F6500C4106D /* Main.storyboard */,
+			);
+			path = StoryBoards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,7 +437,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DUQE66MABG;
-				INFOPLIST_FILE = nalul_iOS/Info.plist;
+				INFOPLIST_FILE = "nalul_iOS/Surpporting File/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,7 +457,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DUQE66MABG;
-				INFOPLIST_FILE = nalul_iOS/Info.plist;
+				INFOPLIST_FILE = "nalul_iOS/Surpporting File/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
