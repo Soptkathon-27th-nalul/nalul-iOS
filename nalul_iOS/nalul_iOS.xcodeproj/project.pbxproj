@@ -14,6 +14,9 @@
 		9BD2B49825692F6500C4106D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2B49625692F6500C4106D /* Main.storyboard */; };
 		9BD2B49A25692F6800C4106D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2B49925692F6800C4106D /* Assets.xcassets */; };
 		9BD2B49D25692F6800C4106D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2B49B25692F6800C4106D /* LaunchScreen.storyboard */; };
+		9BD2B4BE25693A5C00C4106D /* NotoSansCJKkr-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2B4BB25693A5C00C4106D /* NotoSansCJKkr-Light.otf */; };
+		9BD2B4BF25693A5C00C4106D /* NotoSansCJKkr-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2B4BC25693A5C00C4106D /* NotoSansCJKkr-Regular.otf */; };
+		9BD2B4C025693A5C00C4106D /* NotoSansCJKkr-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2B4BD25693A5C00C4106D /* NotoSansCJKkr-Bold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		9BD2B49925692F6800C4106D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BD2B49C25692F6800C4106D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BD2B49E25692F6800C4106D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD2B4BB25693A5C00C4106D /* NotoSansCJKkr-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSansCJKkr-Light.otf"; path = "../../../../../../Downloads/NotoSansCJKkr-hinted/NotoSansCJKkr-Light.otf"; sourceTree = "<group>"; };
+		9BD2B4BC25693A5C00C4106D /* NotoSansCJKkr-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSansCJKkr-Regular.otf"; path = "../../../../../../Downloads/NotoSansCJKkr-hinted/NotoSansCJKkr-Regular.otf"; sourceTree = "<group>"; };
+		9BD2B4BD25693A5C00C4106D /* NotoSansCJKkr-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSansCJKkr-Bold.otf"; path = "../../../../../../Downloads/NotoSansCJKkr-hinted/NotoSansCJKkr-Bold.otf"; sourceTree = "<group>"; };
 		C940BE09C2D43205D19FB522 /* Pods_nalul_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nalul_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -101,6 +107,9 @@
 			isa = PBXGroup;
 			children = (
 				9BD2B49925692F6800C4106D /* Assets.xcassets */,
+				9BD2B4BD25693A5C00C4106D /* NotoSansCJKkr-Bold.otf */,
+				9BD2B4BB25693A5C00C4106D /* NotoSansCJKkr-Light.otf */,
+				9BD2B4BC25693A5C00C4106D /* NotoSansCJKkr-Regular.otf */,
 				9BD2B4B12569321300C4106D /* StoryBoards */,
 			);
 			path = Resource;
@@ -230,9 +239,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BD2B4BF25693A5C00C4106D /* NotoSansCJKkr-Regular.otf in Resources */,
 				9BD2B49D25692F6800C4106D /* LaunchScreen.storyboard in Resources */,
+				9BD2B4BE25693A5C00C4106D /* NotoSansCJKkr-Light.otf in Resources */,
 				9BD2B49A25692F6800C4106D /* Assets.xcassets in Resources */,
 				9BD2B49825692F6500C4106D /* Main.storyboard in Resources */,
+				9BD2B4C025693A5C00C4106D /* NotoSansCJKkr-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
