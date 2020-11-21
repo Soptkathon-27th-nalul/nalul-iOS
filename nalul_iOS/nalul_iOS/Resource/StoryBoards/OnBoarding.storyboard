@@ -241,10 +241,10 @@
             </objects>
             <point key="canvasLocation" x="1953" y="-52"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navi View Controller-->
         <scene sceneID="8c6-Qf-NlC">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iWD-qP-09n" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="NaviViewController" automaticallyAdjustsScrollViewInsets="NO" id="iWD-qP-09n" customClass="NaviViewController" customModule="nalul_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Qak-OK-XlD">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>

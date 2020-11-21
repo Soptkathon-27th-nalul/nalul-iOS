@@ -156,6 +156,9 @@
                                     <constraint firstAttribute="height" constant="48" id="HWm-Mb-4jk"/>
                                 </constraints>
                                 <state key="normal" image="myphotoCheckBackButton"/>
+                                <connections>
+                                    <action selector="backbuttonClicked:" destination="B5Z-nB-khx" eventType="touchUpInside" id="PEC-kq-D1H"/>
+                                </connections>
                             </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ZRq-mR-XQV">
                                 <rect key="frame" x="0.0" y="92" width="414" height="770"/>
@@ -200,6 +203,9 @@
                                     <constraint firstAttribute="width" constant="68" id="SSB-2a-zNL"/>
                                 </constraints>
                                 <state key="normal" image="plusBtn"/>
+                                <connections>
+                                    <action selector="plusButton:" destination="B5Z-nB-khx" eventType="touchUpInside" id="kCD-qq-4ge"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xF0-8R-Ad8"/>

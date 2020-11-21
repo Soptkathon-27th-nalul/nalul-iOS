@@ -26,47 +26,91 @@ class MainVC: UIViewController {
     }
     
     @IBAction func leftEyeBtn(_ sender: Any) {
-        
-        
+        let DetailStoryboard = UIStoryboard.init(name: "Detail", bundle: nil)
+        guard let firstTab = DetailStoryboard.instantiateViewController(identifier: "DetailVC") as? DetailVC else {
+                    return
+                }
+
+        self.navigationController?.pushViewController(firstTab, animated: true)
     }
     
     @IBAction func leftHandBtn(_ sender: Any) {
-        
+        let DetailStoryboard = UIStoryboard.init(name: "Detail", bundle: nil)
+        guard let firstTab = DetailStoryboard.instantiateViewController(identifier: "DetailVC") as? DetailVC else {
+                    return
+                }
+
+        self.navigationController?.pushViewController(firstTab, animated: true)
         
     }
     
     @IBAction func dotBtn(_ sender: Any) {
         
-        
+        let DetailStoryboard = UIStoryboard.init(name: "Detail", bundle: nil)
+        guard let firstTab = DetailStoryboard.instantiateViewController(identifier: "DetailVC") as? DetailVC else {
+                    return
+                }
+
+        self.navigationController?.pushViewController(firstTab, animated: true)
     }
     
     @IBAction func rightHandBtn(_ sender: Any) {
         
-        
+        let DetailStoryboard = UIStoryboard.init(name: "Detail", bundle: nil)
+        guard let firstTab = DetailStoryboard.instantiateViewController(identifier: "DetailVC") as? DetailVC else {
+                    return
+                }
+
+        self.navigationController?.pushViewController(firstTab, animated: true)
     }
     
     @IBAction func earBtn(_ sender: Any) {
-        
+        let DetailStoryboard = UIStoryboard.init(name: "Detail", bundle: nil)
+        guard let firstTab = DetailStoryboard.instantiateViewController(identifier: "DetailVC") as? DetailVC else {
+                    return
+                }
+
+        self.navigationController?.pushViewController(firstTab, animated: true)
         
     }
     
     @IBAction func mouthBtn(_ sender: Any) {
         
-        
+        let DetailStoryboard = UIStoryboard.init(name: "Detail", bundle: nil)
+        guard let firstTab = DetailStoryboard.instantiateViewController(identifier: "DetailVC") as? DetailVC else {
+                    return
+                }
+
+        self.navigationController?.pushViewController(firstTab, animated: true)
     }
     
     @IBAction func cheekBtn(_ sender: Any) {
         
-        
+        let DetailStoryboard = UIStoryboard.init(name: "Detail", bundle: nil)
+        guard let firstTab = DetailStoryboard.instantiateViewController(identifier: "DetailVC") as? DetailVC else {
+                    return
+                }
+
+        self.navigationController?.pushViewController(firstTab, animated: true)
     }
     
     @IBAction func rightEyeBtn(_ sender: Any) {
-        
+        let DetailStoryboard = UIStoryboard.init(name: "Detail", bundle: nil)
+        guard let firstTab = DetailStoryboard.instantiateViewController(identifier: "DetailVC") as? DetailVC else {
+                    return
+                }
+
+        self.navigationController?.pushViewController(firstTab, animated: true)
         
     }
     
     @IBAction func noseBtn(_ sender: Any) {
         
-        
+        let DetailStoryboard = UIStoryboard.init(name: "Detail", bundle: nil)
+        guard let firstTab = DetailStoryboard.instantiateViewController(identifier: "DetailVC") as? DetailVC else {
+                    return
+                }
+
+        self.navigationController?.pushViewController(firstTab, animated: true)
     }
 }

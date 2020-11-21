@@ -38,7 +38,6 @@
                                                     <constraint firstAttribute="width" constant="84" id="3ax-y5-4CL"/>
                                                     <constraint firstAttribute="height" constant="84" id="laH-ui-rAA"/>
                                                 </constraints>
-                                                <state key="normal" title="Btn1"/>
                                                 <connections>
                                                     <action selector="leftEyeBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eNj-ud-xen"/>
                                                 </connections>
@@ -49,7 +48,6 @@
                                                     <constraint firstAttribute="width" constant="84" id="2v5-Xu-DCX"/>
                                                     <constraint firstAttribute="height" constant="84" id="mP3-55-Hcx"/>
                                                 </constraints>
-                                                <state key="normal" title="Btn2"/>
                                                 <connections>
                                                     <action selector="leftHandBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KCN-Q9-qgG"/>
                                                 </connections>
@@ -60,7 +58,6 @@
                                                     <constraint firstAttribute="width" constant="84" id="9E0-IV-fO0"/>
                                                     <constraint firstAttribute="height" constant="84" id="KEB-UA-4Jn"/>
                                                 </constraints>
-                                                <state key="normal" title="Btn3"/>
                                                 <connections>
                                                     <action selector="dotBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PDb-mI-ei8"/>
                                                 </connections>
@@ -76,7 +73,6 @@
                                                     <constraint firstAttribute="height" constant="84" id="8GS-xV-JO2"/>
                                                     <constraint firstAttribute="width" constant="84" id="JbE-Wh-0wd"/>
                                                 </constraints>
-                                                <state key="normal" title="Btn4"/>
                                                 <connections>
                                                     <action selector="rightHandBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="prv-H0-7N5"/>
                                                 </connections>
@@ -87,7 +83,6 @@
                                                     <constraint firstAttribute="height" constant="84" id="Alj-sn-HXA"/>
                                                     <constraint firstAttribute="width" constant="84" id="fct-GC-D1C"/>
                                                 </constraints>
-                                                <state key="normal" title="Btn5"/>
                                                 <connections>
                                                     <action selector="earBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qh1-I7-3Zo"/>
                                                 </connections>
@@ -98,7 +93,6 @@
                                                     <constraint firstAttribute="height" constant="84" id="8XN-zn-xoq"/>
                                                     <constraint firstAttribute="width" constant="84" id="SYf-yF-x3i"/>
                                                 </constraints>
-                                                <state key="normal" title="Btn6"/>
                                                 <connections>
                                                     <action selector="mouthBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GeI-yf-hd3"/>
                                                 </connections>
@@ -114,7 +108,6 @@
                                                     <constraint firstAttribute="width" constant="84" id="4I6-Cc-Uvd"/>
                                                     <constraint firstAttribute="height" constant="84" id="7ry-pp-hDF"/>
                                                 </constraints>
-                                                <state key="normal" title="Btn7"/>
                                                 <connections>
                                                     <action selector="cheekBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aeE-Ul-Pgj"/>
                                                 </connections>
@@ -125,7 +118,6 @@
                                                     <constraint firstAttribute="height" constant="84" id="TYn-7a-Rf2"/>
                                                     <constraint firstAttribute="width" constant="84" id="VT0-Nl-1cG"/>
                                                 </constraints>
-                                                <state key="normal" title="Btn8"/>
                                                 <connections>
                                                     <action selector="rightEyeBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Lb-Qo-v3x"/>
                                                 </connections>
@@ -136,7 +128,6 @@
                                                     <constraint firstAttribute="height" constant="84" id="IZr-OC-RfX"/>
                                                     <constraint firstAttribute="width" constant="84" id="k2Z-m0-oEf"/>
                                                 </constraints>
-                                                <state key="normal" title="Btn9"/>
                                                 <connections>
                                                     <action selector="noseBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6KQ-bx-G8U"/>
                                                 </connections>

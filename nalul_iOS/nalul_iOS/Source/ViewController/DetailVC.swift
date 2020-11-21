@@ -11,10 +11,21 @@ class DetailVC: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var plusBtn: UIButton!
     
+    @IBAction func backbuttonClicked(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
     let horizontalSpacing: CGFloat = 30.0
     let spacing: CGFloat = 7.0
     
-//    var bodyImage: UIImage?
+    @IBAction func plusButton(_ sender: Any) {
+        let runningTabStoryboard = UIStoryboard.init(name: "Write", bundle: nil)
+                
+                guard let firstTab = runningTabStoryboard.instantiateViewController(identifier: "WriteVC") as? WriteVC else {
+                    return
+                }
+        self.navigationController?.pushViewController(firstTab, animated: true)
+    }
+    //    var bodyImage: UIImage?
 //    var question: String?
 //    var date: String?
 //    var content: String?
@@ -65,14 +76,17 @@ extension DetailVC: UICollectionViewDelegateFlowLayout {
 extension DetailVC: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
 //        return detailModels?.contents.count ?? 0
-        return 15
+        return 1
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: DetailCell.identifier, for: indexPath) as? DetailCell else {return UICollectionViewCell() }
-        
-        cell.bodyImage.backgroundColor = .orange
+//
+//        cell.bodyImage.backgroundColor = .orange
+//        cell.bodyImage.image ==
 //        cell.bodyImage.image = detailModels.
+        cell.bodyImage.image = UIImage(named: UserDefaults.standard.string(forKey: "image") ?? "")
+            
         return cell
     }
 }

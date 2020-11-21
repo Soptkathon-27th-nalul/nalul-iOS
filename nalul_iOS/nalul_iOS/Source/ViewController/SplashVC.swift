@@ -12,8 +12,8 @@ class SplashVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         CheckInUUID(uuid: UIDevice.current.identifierForVendor?.uuidString ?? "")
-        Timer.scheduledTimer(timeInterval: 3, target: self, selector: #selector(aaaa), userInfo: nil, repeats: false)
-        // Do any additional setup after loading the view.
+//        Timer.scheduledTimer(timeInterval: 3, target: self, selector: #selector(aaaa), userInfo: nil, repeats: false)
+//        // Do any additional setup after loading the view.
     }
     @objc func aaaa() {
            guard let storyboard = UIStoryboard(name: "Write", bundle: nil).instantiateViewController(identifier: "WriteVC") as? WriteVC else { return }
@@ -28,9 +28,19 @@ class SplashVC: UIViewController {
             self.UuidModel = response
             UserDefaults.standard.set(response.data?.accessToken,forKey: "accessToken")
             if response.status == 200 {
-                
-            } else if response.status == 204 {
-                
+                let runningTabStoryboard = UIStoryboard.init(name: "OnBoarding", bundle: nil)
+                        
+                        guard let firstTab = runningTabStoryboard.instantiateViewController(identifier: "NaviViewController") as? NaviViewController else {
+                            return
+                        }
+                self.present(firstTab, animated: true, completion: nil)
+            } else if response.status == 201 {
+                let runningTabStoryboard = UIStoryboard.init(name: "OnBoarding", bundle: nil)
+                        
+                        guard let firstTab = runningTabStoryboard.instantiateViewController(identifier: "NaviViewController") as? NaviViewController else {
+                            return
+                        }
+                self.present(firstTab, animated: true, completion: nil)
             }
         case .requestErr(_):
             print("requestErr")

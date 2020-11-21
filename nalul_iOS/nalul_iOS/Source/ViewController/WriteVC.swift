@@ -9,6 +9,7 @@ import UIKit
 
 class WriteVC: UIViewController {
     var classId: Int?
+    var img:UIImage?
     var QuestionModel: QuestionData<QuestionSuccess>?
     var eyeData: [String] = ["눈에 뭘 담고 싶나요?","오늘 뭘 봤나요?","눈 색깔이 \n어떤 것 같아요?","자신의 눈이 \n매력적인 점은?","반대쪽 눈과 \n다른 점이 뭔가요?"]
     var noseData: [String] = ["달에서는 \n무슨 냄새가 \n날 것 같아요?","자신에 코에 대해 \n칭찬해보세요.","다른 사람들이 말하는 \n나만의 냄새가 있나요?","당신을 향기를 \n색으로 표현한다면 \n어떤 색인가요?","냄새를 못 맡는다면 \n어떨 것 같나요?"]
@@ -30,10 +31,19 @@ class WriteVC: UIViewController {
         subTextView.delegate = self
         // Do any additional setup after loading the view.
     }
+//    override func viewWillAppear(_ animated: Bool) {
+//        if let img = img {
+//            self.
+//        }
+//    }
     
     @IBAction func touchUpPostButton(_ sender: Any) {
         if (faceImageView.isHidden == false) && (subTextView.text != "대답을 입력해주세요.") {
             //서버 통신
+            UserDefaults.standard.set(faceImageView.image, forKey: "image")
+            UserDefaults.standard.set(subTextView.text, forKey: "text")
+            UserDefaults.standard.set(questionLabel.text, forKey: "question")
+            self.navigationController?.popViewController(animated: true)
             
         }
     }
@@ -65,6 +75,7 @@ extension WriteVC {
         
         questionLabel.font = UIFont(name: "NotoSansCJKkr-Bold", size: 28.0)
         questionLabel.numberOfLines = 0
+        questionLabel.text = eyeData[3]
 //        if classId == 0 {
 //
 //        }
@@ -137,6 +148,7 @@ extension WriteVC: UIImagePickerControllerDelegate, UINavigationControllerDelega
             faceImageView.image = image
             faceImageView.isHidden = false
             faceImageView.contentMode = .scaleAspectFill
+            
 
         }
 
