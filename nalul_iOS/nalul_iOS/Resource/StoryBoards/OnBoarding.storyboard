@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="obK-HC-6Dw">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -8,23 +8,122 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--On BoardingVC-->
         <scene sceneID="kMs-17-uVK">
             <objects>
-                <viewController id="obK-HC-6Dw" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OnBoardingVC" id="obK-HC-6Dw" customClass="OnBoardingVC" customModule="nalul_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GHx-vL-ORL">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6hH-gP-pxG">
+                                <rect key="frame" x="19" y="44" width="48" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="ORp-I1-Uzy"/>
+                                    <constraint firstAttribute="width" constant="48" id="ihy-Do-vVm"/>
+                                </constraints>
+                                <state key="normal" image="coachmark_button_back_box"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rPI-jn-yUi">
+                                <rect key="frame" x="42" y="92" width="245" height="76.666666666666686"/>
+                                <string key="text">nalul의 배경화면은
+당신입니다.</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="· 흑백의 정면 사진을 등록해주세요." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sl1-n9-V9Q">
+                                <rect key="frame" x="41.999999999999986" y="192.66666666666666" width="179.66666666666663" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="· 화면이 꽉 차는 사진을 등록해주세요." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Pr-DA-uTi">
+                                <rect key="frame" x="41.999999999999986" y="217.66666666666666" width="194.66666666666663" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coachmarkExampleImg" translatesAutoresizingMaskIntoConstraints="NO" id="62S-zb-gn8">
+                                <rect key="frame" x="54" y="255.66666666666663" width="266" height="296"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="266" id="YQb-5L-0ek"/>
+                                    <constraint firstAttribute="height" constant="296" id="ofb-A3-mET"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vT6-Qx-g6Q">
+                                <rect key="frame" x="24" y="583.66666666666663" width="327" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="38y-eO-fGb"/>
+                                    <constraint firstAttribute="width" constant="327" id="CKl-oj-CiV"/>
+                                </constraints>
+                                <state key="normal" image="coachmarkPhotoInsertBtn"/>
+                                <connections>
+                                    <action selector="registerBtn:" destination="obK-HC-6Dw" eventType="touchUpInside" id="f1k-tg-apu"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6HO-Fn-ke9"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1Pr-DA-uTi" firstAttribute="leading" secondItem="6HO-Fn-ke9" secondAttribute="leading" constant="42" id="0nP-9y-gUV"/>
+                            <constraint firstItem="62S-zb-gn8" firstAttribute="top" secondItem="1Pr-DA-uTi" secondAttribute="bottom" constant="22" id="1qw-PN-6C3"/>
+                            <constraint firstItem="vT6-Qx-g6Q" firstAttribute="leading" secondItem="6HO-Fn-ke9" secondAttribute="leading" constant="24" id="8co-Zx-K4K"/>
+                            <constraint firstItem="vT6-Qx-g6Q" firstAttribute="top" secondItem="62S-zb-gn8" secondAttribute="bottom" constant="32" id="Q71-lg-pZc"/>
+                            <constraint firstItem="62S-zb-gn8" firstAttribute="leading" secondItem="6HO-Fn-ke9" secondAttribute="leading" constant="54" id="Vyl-PP-Njv"/>
+                            <constraint firstItem="sl1-n9-V9Q" firstAttribute="leading" secondItem="6HO-Fn-ke9" secondAttribute="leading" constant="42" id="lFF-Ex-VG3"/>
+                            <constraint firstItem="rPI-jn-yUi" firstAttribute="leading" secondItem="6HO-Fn-ke9" secondAttribute="leading" constant="42" id="nXc-cf-20W"/>
+                            <constraint firstItem="6hH-gP-pxG" firstAttribute="leading" secondItem="6HO-Fn-ke9" secondAttribute="leading" constant="19" id="o6o-g1-Cdk"/>
+                            <constraint firstItem="rPI-jn-yUi" firstAttribute="top" secondItem="6hH-gP-pxG" secondAttribute="bottom" id="qas-CF-O2n"/>
+                            <constraint firstItem="6hH-gP-pxG" firstAttribute="top" secondItem="6HO-Fn-ke9" secondAttribute="top" id="rLF-Gc-ka5"/>
+                            <constraint firstItem="1Pr-DA-uTi" firstAttribute="top" secondItem="sl1-n9-V9Q" secondAttribute="bottom" constant="9" id="uRo-Vs-88M"/>
+                            <constraint firstItem="sl1-n9-V9Q" firstAttribute="top" secondItem="rPI-jn-yUi" secondAttribute="bottom" constant="24" id="z86-is-wkE"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="62S-zb-gn8" id="HwH-Xf-2IK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BsQ-32-HsM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="486" y="-91"/>
+            <point key="canvasLocation" x="1814" y="-52"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="l0I-1P-Kag">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="NRL-eJ-HcC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pxb-VW-maO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Jk4-Ut-9rz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Xze-Bw-bke"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qe6-rr-sO8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="250" y="-51"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wKc-zX-OWj">
+            <objects>
+                <viewController id="ypq-i4-ocR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v3g-Yr-kJk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ha2-jY-Emn"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KRD-cY-EJO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="972" y="-52"/>
         </scene>
     </scenes>
     <resources>
+        <image name="coachmarkExampleImg" width="266" height="296"/>
+        <image name="coachmarkPhotoInsertBtn" width="327" height="51"/>
+        <image name="coachmark_button_back_box" width="48" height="48"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

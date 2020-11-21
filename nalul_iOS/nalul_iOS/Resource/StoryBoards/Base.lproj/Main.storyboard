@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -8,23 +8,47 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--MainVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="nalul_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainVC" id="BYZ-38-t0r" customClass="MainVC" customModule="nalul_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="f4V-ff-7qK">
+                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainPhotoBoxgroup" translatesAutoresizingMaskIntoConstraints="NO" id="MT0-zM-kIT">
+                                <rect key="frame" x="61" y="193" width="252" height="252"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="252" id="7XL-XM-RLT"/>
+                                    <constraint firstAttribute="width" constant="252" id="xap-d6-jQf"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="f4V-ff-7qK" secondAttribute="bottom" id="4tQ-Gh-n0Z"/>
+                            <constraint firstItem="MT0-zM-kIT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="61" id="9Jn-e6-1Oh"/>
+                            <constraint firstItem="f4V-ff-7qK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="dRk-Tk-9mh"/>
+                            <constraint firstItem="MT0-zM-kIT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="149" id="dtA-5I-r6K"/>
+                            <constraint firstItem="f4V-ff-7qK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ePK-cX-IeC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="f4V-ff-7qK" secondAttribute="trailing" id="ffr-5S-dfs"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backgroundImg" destination="f4V-ff-7qK" id="VqU-rC-KXZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-23" y="40"/>
+            <point key="canvasLocation" x="-23.188405797101453" y="39.508928571428569"/>
         </scene>
     </scenes>
     <resources>
+        <image name="mainPhotoBoxgroup" width="260" height="260"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
