@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1FB1D7D3256963F7009A1AD3 /* OnBoardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB1D7D2256963F7009A1AD3 /* OnBoardingVC.swift */; };
 		1FB1D7D725696722009A1AD3 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB1D7D625696722009A1AD3 /* MainVC.swift */; };
+		1FB1D7F32569ACA9009A1AD3 /* OnBoardingFirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB1D7F22569ACA9009A1AD3 /* OnBoardingFirstVC.swift */; };
+		1FB1D7F62569ACCE009A1AD3 /* OnBoardingSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB1D7F52569ACCE009A1AD3 /* OnBoardingSecondVC.swift */; };
 		368D377F29EFE51550D79473 /* Pods_nalul_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C940BE09C2D43205D19FB522 /* Pods_nalul_iOS.framework */; };
 		9B1363F8256971840017D254 /* WriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1363F7256971840017D254 /* WriteVC.swift */; };
 		9B13640325699D300017D254 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13640225699D300017D254 /* SplashVC.swift */; };
@@ -37,12 +39,17 @@
 		9BD2B4DF25695B7A00C4106D /* Write.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2B4DE25695B7A00C4106D /* Write.storyboard */; };
 		AB5EDBCC256970DA00E36E93 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EDBCB256970DA00E36E93 /* HistoryVC.swift */; };
 		AB5EDBD0256997C000E36E93 /* DetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EDBCF256997C000E36E93 /* DetailService.swift */; };
+		AB5EDBD82569A73F00E36E93 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EDBD72569A73F00E36E93 /* DetailVC.swift */; };
+		AB5EDBDB2569A81300E36E93 /* DetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EDBDA2569A81300E36E93 /* DetailCell.swift */; };
+		AB5EDBE52569AC0500E36E93 /* DetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EDBE42569AC0500E36E93 /* DetailResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1DD38D531E1EC0F4410568AC /* Pods-nalul_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nalul_iOS.release.xcconfig"; path = "Target Support Files/Pods-nalul_iOS/Pods-nalul_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		1FB1D7D2256963F7009A1AD3 /* OnBoardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingVC.swift; sourceTree = "<group>"; };
 		1FB1D7D625696722009A1AD3 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		1FB1D7F22569ACA9009A1AD3 /* OnBoardingFirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingFirstVC.swift; sourceTree = "<group>"; };
+		1FB1D7F52569ACCE009A1AD3 /* OnBoardingSecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingSecondVC.swift; sourceTree = "<group>"; };
 		70C8455682FABF1B11F2F60E /* Pods-nalul_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nalul_iOS.debug.xcconfig"; path = "Target Support Files/Pods-nalul_iOS/Pods-nalul_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		9B1363F7256971840017D254 /* WriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteVC.swift; sourceTree = "<group>"; };
 		9B13640225699D300017D254 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
@@ -73,6 +80,9 @@
 		9BD2B4DE25695B7A00C4106D /* Write.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Write.storyboard; sourceTree = "<group>"; };
 		AB5EDBCB256970DA00E36E93 /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
 		AB5EDBCF256997C000E36E93 /* DetailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailService.swift; sourceTree = "<group>"; };
+		AB5EDBD72569A73F00E36E93 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		AB5EDBDA2569A81300E36E93 /* DetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCell.swift; sourceTree = "<group>"; };
+		AB5EDBE42569AC0500E36E93 /* DetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailResponse.swift; sourceTree = "<group>"; };
 		C940BE09C2D43205D19FB522 /* Pods_nalul_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nalul_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -173,9 +183,12 @@
 			children = (
 				9B1363F7256971840017D254 /* WriteVC.swift */,
 				9B13640225699D300017D254 /* SplashVC.swift */,
-				1FB1D7D2256963F7009A1AD3 /* OnBoardingVC.swift */,
 				1FB1D7D625696722009A1AD3 /* MainVC.swift */,
 				AB5EDBCB256970DA00E36E93 /* HistoryVC.swift */,
+				AB5EDBD72569A73F00E36E93 /* DetailVC.swift */,
+				1FB1D7D2256963F7009A1AD3 /* OnBoardingVC.swift */,
+				1FB1D7F22569ACA9009A1AD3 /* OnBoardingFirstVC.swift */,
+				1FB1D7F52569ACCE009A1AD3 /* OnBoardingSecondVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -184,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				9BD2B4C82569599600C4106D /* EmptyCell.swift */,
+				AB5EDBDA2569A81300E36E93 /* DetailCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -211,6 +225,7 @@
 				9BD2B4CE256959B000C4106D /* EmptyModel.swift */,
 				9B13640D2569A7F60017D254 /* LoginData.swift */,
 				9B1364132569B7310017D254 /* QuestionData.swift */,
+				AB5EDBE42569AC0500E36E93 /* DetailResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -367,15 +382,20 @@
 				1FB1D7D725696722009A1AD3 /* MainVC.swift in Sources */,
 				9BD2B4C62569588000C4106D /* NetworkResult.swift in Sources */,
 				9BD2B4CF256959B000C4106D /* EmptyModel.swift in Sources */,
+				AB5EDBD82569A73F00E36E93 /* DetailVC.swift in Sources */,
+				1FB1D7F62569ACCE009A1AD3 /* OnBoardingSecondVC.swift in Sources */,
 				9B1363F8256971840017D254 /* WriteVC.swift in Sources */,
+				1FB1D7F32569ACA9009A1AD3 /* OnBoardingFirstVC.swift in Sources */,
 				9B13640325699D300017D254 /* SplashVC.swift in Sources */,
 				9BD2B49125692F6500C4106D /* AppDelegate.swift in Sources */,
 				9B1364142569B7310017D254 /* QuestionData.swift in Sources */,
 				AB5EDBCC256970DA00E36E93 /* HistoryVC.swift in Sources */,
 				9BD2B49325692F6500C4106D /* SceneDelegate.swift in Sources */,
 				9BD2B4CC256959A100C4106D /* EmptyView.swift in Sources */,
+				AB5EDBDB2569A81300E36E93 /* DetailCell.swift in Sources */,
 				9BD2B4D2256959C300C4106D /* EmptyExtension.swift in Sources */,
 				9B1364172569B7C90017D254 /* PostService.swift in Sources */,
+				AB5EDBE52569AC0500E36E93 /* DetailResponse.swift in Sources */,
 				AB5EDBD0256997C000E36E93 /* DetailService.swift in Sources */,
 				9B13640E2569A7F60017D254 /* LoginData.swift in Sources */,
 				9BD2B4C92569599600C4106D /* EmptyCell.swift in Sources */,
@@ -529,7 +549,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = T2DNZQ8AY8;
 				INFOPLIST_FILE = "nalul_iOS/Surpporting File/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -551,7 +571,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = T2DNZQ8AY8;
 				INFOPLIST_FILE = "nalul_iOS/Surpporting File/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

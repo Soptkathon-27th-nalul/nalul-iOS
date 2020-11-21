@@ -16,7 +16,7 @@ struct APIConstants {
     static let mainURL = APIConstants.baseURL + ""
     
     // 디테일 사진 받아오는 url
-    static let detailURL = APIConstants.baseURL + ""
+    static let detailURL = APIConstants.baseURL + "/list"
     
     // 글 작성 url
     static let writeURL = APIConstants.baseURL + "/posts"
