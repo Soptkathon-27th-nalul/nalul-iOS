@@ -19,6 +19,10 @@
 		9BD2B4C025693A5C00C4106D /* NotoSansCJKkr-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2B4BD25693A5C00C4106D /* NotoSansCJKkr-Bold.otf */; };
 		9BD2B4C3256956ED00C4106D /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2B4C2256956ED00C4106D /* APIConstants.swift */; };
 		9BD2B4C62569588000C4106D /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2B4C52569588000C4106D /* NetworkResult.swift */; };
+		9BD2B4C92569599600C4106D /* EmptyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2B4C82569599600C4106D /* EmptyCell.swift */; };
+		9BD2B4CC256959A100C4106D /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2B4CB256959A100C4106D /* EmptyView.swift */; };
+		9BD2B4CF256959B000C4106D /* EmptyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2B4CE256959B000C4106D /* EmptyModel.swift */; };
+		9BD2B4D2256959C300C4106D /* EmptyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2B4D1256959C300C4106D /* EmptyExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		9BD2B4BD25693A5C00C4106D /* NotoSansCJKkr-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSansCJKkr-Bold.otf"; path = "../../../../../../Downloads/NotoSansCJKkr-hinted/NotoSansCJKkr-Bold.otf"; sourceTree = "<group>"; };
 		9BD2B4C2256956ED00C4106D /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		9BD2B4C52569588000C4106D /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		9BD2B4C82569599600C4106D /* EmptyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCell.swift; sourceTree = "<group>"; };
+		9BD2B4CB256959A100C4106D /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		9BD2B4CE256959B000C4106D /* EmptyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyModel.swift; sourceTree = "<group>"; };
+		9BD2B4D1256959C300C4106D /* EmptyExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyExtension.swift; sourceTree = "<group>"; };
 		C940BE09C2D43205D19FB522 /* Pods_nalul_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nalul_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -143,6 +151,7 @@
 		9BD2B4AC256931A300C4106D /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				9BD2B4C82569599600C4106D /* EmptyCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -150,6 +159,7 @@
 		9BD2B4AD256931A600C4106D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9BD2B4CB256959A100C4106D /* EmptyView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -157,6 +167,7 @@
 		9BD2B4AE256931B000C4106D /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				9BD2B4D1256959C300C4106D /* EmptyExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -164,6 +175,7 @@
 		9BD2B4AF256931B600C4106D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9BD2B4CE256959B000C4106D /* EmptyModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -306,8 +318,12 @@
 				9BD2B4C3256956ED00C4106D /* APIConstants.swift in Sources */,
 				9BD2B4C62569588000C4106D /* NetworkResult.swift in Sources */,
 				9BD2B49525692F6500C4106D /* ViewController.swift in Sources */,
+				9BD2B4CF256959B000C4106D /* EmptyModel.swift in Sources */,
 				9BD2B49125692F6500C4106D /* AppDelegate.swift in Sources */,
 				9BD2B49325692F6500C4106D /* SceneDelegate.swift in Sources */,
+				9BD2B4CC256959A100C4106D /* EmptyView.swift in Sources */,
+				9BD2B4D2256959C300C4106D /* EmptyExtension.swift in Sources */,
+				9BD2B4C92569599600C4106D /* EmptyCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
