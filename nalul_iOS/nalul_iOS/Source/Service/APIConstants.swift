@@ -7,7 +7,7 @@
 
 import Foundation
 struct APIConstants {
-    static let baseURL = "http://"
+    static let baseURL = "http://13.124.67.93:3000"
     
     //uuid 체크인 url
     static let loginURL = APIConstants.baseURL + ""
