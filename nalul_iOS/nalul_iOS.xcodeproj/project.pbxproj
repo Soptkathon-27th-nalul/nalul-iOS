@@ -10,6 +10,9 @@
 		1FB1D7D3256963F7009A1AD3 /* OnBoardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB1D7D2256963F7009A1AD3 /* OnBoardingVC.swift */; };
 		1FB1D7D725696722009A1AD3 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB1D7D625696722009A1AD3 /* MainVC.swift */; };
 		368D377F29EFE51550D79473 /* Pods_nalul_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C940BE09C2D43205D19FB522 /* Pods_nalul_iOS.framework */; };
+		9B1363F8256971840017D254 /* WriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1363F7256971840017D254 /* WriteVC.swift */; };
+		9B13640325699D300017D254 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13640225699D300017D254 /* SplashVC.swift */; };
+		9B13640B2569A5770017D254 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13640A2569A5770017D254 /* UIImageView+Extensions.swift */; };
 		9BD2B49125692F6500C4106D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2B49025692F6500C4106D /* AppDelegate.swift */; };
 		9BD2B49325692F6500C4106D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2B49225692F6500C4106D /* SceneDelegate.swift */; };
 		9BD2B49825692F6500C4106D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD2B49625692F6500C4106D /* Main.storyboard */; };
@@ -37,6 +40,9 @@
 		1FB1D7D2256963F7009A1AD3 /* OnBoardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingVC.swift; sourceTree = "<group>"; };
 		1FB1D7D625696722009A1AD3 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		70C8455682FABF1B11F2F60E /* Pods-nalul_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nalul_iOS.debug.xcconfig"; path = "Target Support Files/Pods-nalul_iOS/Pods-nalul_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9B1363F7256971840017D254 /* WriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteVC.swift; sourceTree = "<group>"; };
+		9B13640225699D300017D254 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		9B13640A2569A5770017D254 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		9BD2B48D25692F6500C4106D /* nalul_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nalul_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD2B49025692F6500C4106D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BD2B49225692F6500C4106D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -157,6 +163,8 @@
 		9BD2B4AB2569319E00C4106D /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				9B1363F7256971840017D254 /* WriteVC.swift */,
+				9B13640225699D300017D254 /* SplashVC.swift */,
 				1FB1D7D2256963F7009A1AD3 /* OnBoardingVC.swift */,
 				1FB1D7D625696722009A1AD3 /* MainVC.swift */,
 				AB5EDBCB256970DA00E36E93 /* HistoryVC.swift */,
@@ -184,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				9BD2B4D1256959C300C4106D /* EmptyExtension.swift */,
+				9B13640A2569A5770017D254 /* UIImageView+Extensions.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -340,10 +349,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B13640B2569A5770017D254 /* UIImageView+Extensions.swift in Sources */,
 				9BD2B4C3256956ED00C4106D /* APIConstants.swift in Sources */,
 				1FB1D7D725696722009A1AD3 /* MainVC.swift in Sources */,
 				9BD2B4C62569588000C4106D /* NetworkResult.swift in Sources */,
 				9BD2B4CF256959B000C4106D /* EmptyModel.swift in Sources */,
+				9B1363F8256971840017D254 /* WriteVC.swift in Sources */,
+				9B13640325699D300017D254 /* SplashVC.swift in Sources */,
 				9BD2B49125692F6500C4106D /* AppDelegate.swift in Sources */,
 				AB5EDBCC256970DA00E36E93 /* HistoryVC.swift in Sources */,
 				9BD2B49325692F6500C4106D /* SceneDelegate.swift in Sources */,
@@ -499,6 +511,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "nalul_iOS/Surpporting File/Info.plist";
@@ -508,6 +521,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.ios.sopt.nalul-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -519,6 +533,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "nalul_iOS/Surpporting File/Info.plist";
@@ -528,6 +543,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.ios.sopt.nalul-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
