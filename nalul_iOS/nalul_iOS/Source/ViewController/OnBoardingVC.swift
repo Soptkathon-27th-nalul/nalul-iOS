@@ -35,6 +35,7 @@ class OnBoardingVC: UIViewController {
         let vc = UIImagePickerController()
         vc.sourceType = .photoLibrary
         vc.delegate = self
+        vc.mediaTypes = ["public.image"]
         vc.allowsEditing = false
         present(vc, animated: true, completion: nil)
     }
