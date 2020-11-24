@@ -16,7 +16,7 @@ class OnBoardingVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-
+        
         registerView.setTitle("등록하기", for: .normal)
         registerView.setTitleColor(.black, for: .normal)
         registerView.backgroundColor = .white
@@ -33,10 +33,11 @@ class OnBoardingVC: UIViewController {
     @IBAction func registerBtn(_ sender: Any) {
         
         let vc = UIImagePickerController()
-            vc.sourceType = .photoLibrary
-            vc.delegate = self
-            vc.allowsEditing = false
-            present(vc, animated: true, completion: nil)
+        vc.sourceType = .photoLibrary
+        vc.delegate = self
+        vc.mediaTypes = ["public.image"]
+        vc.allowsEditing = false
+        present(vc, animated: true, completion: nil)
     }
     
     @IBAction func goToSecond(_ sender: Any) {
@@ -50,28 +51,33 @@ extension OnBoardingVC: UIImagePickerControllerDelegate, UINavigationControllerD
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         
         if let image = info[UIImagePickerController.InfoKey(rawValue: "UIImagePickerControllerEditedImage")] as? UIImage {
-           
+            
             // 수정된 이미지가 있을 경우
             imageView.image = image
         } else if let image = info[UIImagePickerController.InfoKey(rawValue: "UIImagePickerControllerOriginalImage")] as? UIImage {
-           
+            
             // 오리지널 이미지가 있을 경우
             imageView.image = image
-                }
-
-            picker.dismiss(animated: true, completion: nil)
+        }
         
-            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                
-            if let destination = storyboard.instantiateViewController(identifier: "MainVC") as? MainVC {
-                
-            destination.img = imageView.image
-                
-                self.navigationController?.pushViewController(destination, animated: true)
-                
+        picker.dismiss(animated: true, completion: nil)
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        if let destination = storyboard.instantiateViewController(identifier: "NaviViewController") as? NaviViewController {
             destination.modalPresentationStyle = .fullScreen
+            let uniqueFileName: String
+                = "background"
+            ImageFileManager.shared
+                .saveImage(image: imageView.image!,
+                           name: uniqueFileName) { [weak self] onSuccess in
+                    print("saveImage onSuccess: \(onSuccess)")
+                }
+            self.present(destination, animated: true, completion: nil)
+            
+            
+        }
     }
-}
     
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         
