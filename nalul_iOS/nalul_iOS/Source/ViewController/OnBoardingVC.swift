@@ -66,7 +66,7 @@ extension OnBoardingVC: UIImagePickerControllerDelegate, UINavigationControllerD
         if let destination = storyboard.instantiateViewController(identifier: "NaviViewController") as? NaviViewController {
             destination.modalPresentationStyle = .fullScreen
             let uniqueFileName: String
-                = "(background).jpeg"
+                = "background"
             ImageFileManager.shared
                 .saveImage(image: imageView.image!,
                            name: uniqueFileName) { [weak self] onSuccess in
