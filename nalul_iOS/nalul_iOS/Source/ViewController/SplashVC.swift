@@ -33,6 +33,7 @@ class SplashVC: UIViewController {
                         guard let firstTab = runningTabStoryboard.instantiateViewController(identifier: "NaviViewController") as? NaviViewController else {
                             return
                         }
+                firstTab.modalPresentationStyle = .fullScreen
                 self.present(firstTab, animated: true, completion: nil)
             } else if response.status == 201 {
                 let runningTabStoryboard = UIStoryboard.init(name: "OnBoarding", bundle: nil)
@@ -40,6 +41,7 @@ class SplashVC: UIViewController {
                         guard let firstTab = runningTabStoryboard.instantiateViewController(identifier: "NaviViewController") as? NaviViewController else {
                             return
                         }
+                firstTab.modalPresentationStyle = .fullScreen
                 self.present(firstTab, animated: true, completion: nil)
             }
         case .requestErr(_):
