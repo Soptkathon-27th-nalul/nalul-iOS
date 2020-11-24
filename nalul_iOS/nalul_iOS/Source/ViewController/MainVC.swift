@@ -17,12 +17,12 @@ class MainVC: UIViewController {
         super.viewDidLoad()
         
         navigationController?.navigationBar.isHidden = true
-       
-        if let img = img {
-            
-            self.backgroundImg.image = img
-            backgroundImg.contentMode = .scaleAspectFill
+
+        if let image: UIImage
+          = ImageFileManager.shared.getSavedImage(named: "background") {
+            self.backgroundImg.image = image
         }
+        backgroundImg.contentMode = .scaleAspectFill
     }
     
     @IBAction func leftEyeBtn(_ sender: Any) {

@@ -159,10 +159,10 @@
             </objects>
             <point key="canvasLocation" x="918.84057971014499" y="38.839285714285715"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navi View Controller-->
         <scene sceneID="fQp-Vy-xM4">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NJb-gj-ovU" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="NaviViewController" automaticallyAdjustsScrollViewInsets="NO" id="NJb-gj-ovU" customClass="NaviViewController" customModule="nalul_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="v2S-aY-BTa">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
