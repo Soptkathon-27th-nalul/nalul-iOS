@@ -13,6 +13,7 @@
 		1FB1D7F62569ACCE009A1AD3 /* OnBoardingSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB1D7F52569ACCE009A1AD3 /* OnBoardingSecondVC.swift */; };
 		368D377F29EFE51550D79473 /* Pods_nalul_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C940BE09C2D43205D19FB522 /* Pods_nalul_iOS.framework */; };
 		9B1284D825EA4928006651D4 /* APITarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1284D725EA4928006651D4 /* APITarget.swift */; };
+		9B1284DB25EA4A07006651D4 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1284DA25EA4A07006651D4 /* APIService.swift */; };
 		9B1363F8256971840017D254 /* WriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1363F7256971840017D254 /* WriteVC.swift */; };
 		9B13640325699D300017D254 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13640225699D300017D254 /* SplashVC.swift */; };
 		9B13640B2569A5770017D254 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13640A2569A5770017D254 /* UIImageView+Extensions.swift */; };
@@ -51,6 +52,7 @@
 		1FB1D7F52569ACCE009A1AD3 /* OnBoardingSecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingSecondVC.swift; sourceTree = "<group>"; };
 		70C8455682FABF1B11F2F60E /* Pods-nalul_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nalul_iOS.debug.xcconfig"; path = "Target Support Files/Pods-nalul_iOS/Pods-nalul_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		9B1284D725EA4928006651D4 /* APITarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITarget.swift; sourceTree = "<group>"; };
+		9B1284DA25EA4A07006651D4 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		9B1363F7256971840017D254 /* WriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteVC.swift; sourceTree = "<group>"; };
 		9B13640225699D300017D254 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
 		9B13640A2569A5770017D254 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
@@ -329,6 +331,7 @@
 				9B1364102569A8A90017D254 /* LoginService.swift */,
 				9B1364162569B7C90017D254 /* PostService.swift */,
 				9B1284D725EA4928006651D4 /* APITarget.swift */,
+				9B1284DA25EA4A07006651D4 /* APIService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -476,6 +479,7 @@
 				AB5EDBE52569AC0500E36E93 /* DetailResponse.swift in Sources */,
 				AB5EDBD0256997C000E36E93 /* DetailService.swift in Sources */,
 				9B13640E2569A7F60017D254 /* LoginData.swift in Sources */,
+				9B1284DB25EA4A07006651D4 /* APIService.swift in Sources */,
 				1FB1D7D3256963F7009A1AD3 /* OnBoardingVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
