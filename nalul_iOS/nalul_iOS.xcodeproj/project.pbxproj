@@ -12,15 +12,14 @@
 		1FB1D7F32569ACA9009A1AD3 /* OnBoardingFirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB1D7F22569ACA9009A1AD3 /* OnBoardingFirstVC.swift */; };
 		1FB1D7F62569ACCE009A1AD3 /* OnBoardingSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB1D7F52569ACCE009A1AD3 /* OnBoardingSecondVC.swift */; };
 		368D377F29EFE51550D79473 /* Pods_nalul_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C940BE09C2D43205D19FB522 /* Pods_nalul_iOS.framework */; };
-		9B1284D825EA4928006651D4 /* APITarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1284D725EA4928006651D4 /* APITarget.swift */; };
-		9B1284DB25EA4A07006651D4 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1284DA25EA4A07006651D4 /* APIService.swift */; };
 		9B1284DE25EA4BAA006651D4 /* GenericResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1284DD25EA4BAA006651D4 /* GenericResponse.swift */; };
 		9B1284E125EA4BC8006651D4 /* SimpleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1284E025EA4BC8006651D4 /* SimpleData.swift */; };
+		9B1284F225EA867C006651D4 /* APITarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1284D725EA4928006651D4 /* APITarget.swift */; };
+		9B1284F425EA867D006651D4 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1284DA25EA4A07006651D4 /* APIService.swift */; };
 		9B1363F8256971840017D254 /* WriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1363F7256971840017D254 /* WriteVC.swift */; };
 		9B13640325699D300017D254 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13640225699D300017D254 /* SplashVC.swift */; };
 		9B13640B2569A5770017D254 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13640A2569A5770017D254 /* UIImageView+Extensions.swift */; };
 		9B13640E2569A7F60017D254 /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13640D2569A7F60017D254 /* LoginData.swift */; };
-		9B1364112569A8A90017D254 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1364102569A8A90017D254 /* LoginService.swift */; };
 		9B1364142569B7310017D254 /* QuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1364132569B7310017D254 /* QuestionData.swift */; };
 		9B1364172569B7C90017D254 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1364162569B7C90017D254 /* PostService.swift */; };
 		9B13641B2569D5C10017D254 /* NaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13641A2569D5C10017D254 /* NaviViewController.swift */; };
@@ -464,7 +463,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B1284DE25EA4BAA006651D4 /* GenericResponse.swift in Sources */,
-				9B1364112569A8A90017D254 /* LoginService.swift in Sources */,
+				9B1284F425EA867D006651D4 /* APIService.swift in Sources */,
 				9B13640B2569A5770017D254 /* UIImageView+Extensions.swift in Sources */,
 				9BD2B4C3256956ED00C4106D /* APIConstants.swift in Sources */,
 				1FB1D7D725696722009A1AD3 /* MainVC.swift in Sources */,
@@ -475,10 +474,10 @@
 				9B1363F8256971840017D254 /* WriteVC.swift in Sources */,
 				1FB1D7F32569ACA9009A1AD3 /* OnBoardingFirstVC.swift in Sources */,
 				9B13640325699D300017D254 /* SplashVC.swift in Sources */,
+				9B1284F225EA867C006651D4 /* APITarget.swift in Sources */,
 				9BD2B49125692F6500C4106D /* AppDelegate.swift in Sources */,
 				9B1364142569B7310017D254 /* QuestionData.swift in Sources */,
 				AB5EDBCC256970DA00E36E93 /* HistoryVC.swift in Sources */,
-				9B1284D825EA4928006651D4 /* APITarget.swift in Sources */,
 				9BD2B49325692F6500C4106D /* SceneDelegate.swift in Sources */,
 				AB5EDBDB2569A81300E36E93 /* DetailCell.swift in Sources */,
 				9B3202B5256D0A0C00479D96 /* ImageFileManager.swift in Sources */,
@@ -487,7 +486,6 @@
 				AB5EDBD0256997C000E36E93 /* DetailService.swift in Sources */,
 				9B13640E2569A7F60017D254 /* LoginData.swift in Sources */,
 				9B1284E125EA4BC8006651D4 /* SimpleData.swift in Sources */,
-				9B1284DB25EA4A07006651D4 /* APIService.swift in Sources */,
 				1FB1D7D3256963F7009A1AD3 /* OnBoardingVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
